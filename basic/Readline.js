@@ -26,7 +26,7 @@ interface.on('line', function (cmd) {
     closeInterface();
     return;
   } else {
-    console.log("repeating command : " + cmd);
+    console.log("repeating command :  " + cmd);
   }
   interface.setPrompt(">>");
   interface.prompt();
