@@ -16,7 +16,7 @@ interface.question(">> What is the meaning of life? " , function(answer) {
 
 // function to close interface
 function closeInterface() {
-  console.log('Leaving interface...');
+  console.log('Leaving interface...  ');
   process.exit();
 }
 
