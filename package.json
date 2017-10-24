@@ -1,0 +1,27 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "exercise Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "step": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessie8021/NodeJS.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Hyemi Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessie8021/NodeJS/issues"
+  },
+  "homepage": "https://github.com/jessie8021/NodeJS#readme"
+}
