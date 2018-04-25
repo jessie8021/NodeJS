@@ -10,12 +10,13 @@ http.createServer(function (req, res) {
 
   fs.stat(pathname, function (err, stats) {
     if(err) {
+      // connect - localhost:8124/example.html
       res.writeHead(404);
       res.write('Bad request 404 \n');
       res.end();
     } else if (stats.isFile()){
+      // connect - localhost:8124/example1.html
       var type = mime.getType(pathname);
-      console.log(type);
       res.setHeader('Content-Type', type);
       res.statusCode = 200;
 
@@ -27,6 +28,7 @@ http.createServer(function (req, res) {
         console.log(err);
       })
     } else {
+      // connect - localhost:8124
       res.writeHead(403);
       res.write('Directory acccess is forbidden');
       res.end();
